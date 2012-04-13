@@ -111,6 +111,10 @@ footer {
   color: #fff;
 }
 
+.masthead p.lead {
+  padding: 10px 0;
+}
+
 .masthead p.actions {
   padding: 18px;
   background-color: rgba(0, 0, 0, 0.1);
