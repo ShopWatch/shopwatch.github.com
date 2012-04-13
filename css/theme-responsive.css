@@ -1,0 +1,52 @@
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  header div.header-inner {
+    padding-top: 18px;
+  }
+
+  .masthead p.lead {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .masthead p.actions {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .jumbotron .btn-large {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 480px) and (max-width: 768px) {
+  .masthead p.lead {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .jumbotron .btn-large {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 980px) {
+  .masthead p.lead {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .jumbotron .btn-large {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
