@@ -22,11 +22,6 @@
     padding-right: 0;
   }
 
-  .jumbotron .btn-large {
-    padding: 5px 10px;
-    font-size: 13px;
-  }
-
   #btn-iphone-toggle {
     display: none;
   }
@@ -37,11 +32,6 @@
   .masthead p.lead {
     font-size: 16px;
     line-height: 22px;
-  }
-
-  .jumbotron .btn-large {
-    padding: 10px 16px;
-    font-size: 14px;
   }
 
   #btn-iphone-toggle {
