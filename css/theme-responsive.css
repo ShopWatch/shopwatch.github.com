@@ -1,5 +1,13 @@
 /* Landscape phones and down */
 @media (max-width: 480px) {
+  body {
+    background-position: 50% -100px;
+  }
+
+  header {
+    height: 300px;
+  }
+
   header div.header-inner {
     padding-top: 18px;
   }
