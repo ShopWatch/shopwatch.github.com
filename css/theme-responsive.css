@@ -1,11 +1,11 @@
 /* Landscape phones and down */
 @media (max-width: 480px) {
   body {
-    background-position: 50% -100px;
+    background-position: 50% -80px;
   }
 
   header {
-    height: 300px;
+    height: 320px;
   }
 
   header div.header-inner {
