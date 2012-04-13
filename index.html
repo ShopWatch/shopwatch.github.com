@@ -19,75 +19,87 @@
 
 <body>
 
-<div class="container page">
-  <div class="row">
-    <div class="span6">
+<div id="page" class="container">
 
-      <div id="header">
-        <div class="header-inner row">
-          <div class="span6">
-            <h1><a href="/"><img src="img/logo.png" alt="ShopWatch" /></a></h1>
-            <h2>The new &amp; easy way to find&nbsp;and&nbsp;track&nbsp;online&nbsp;prices.</h2>
-            <p class="lead">ShopWatch makes it easy to keep track of<br /> online prices in one simple, easy to use interface.</p>
-            <p><a class="btn btn-large btn-warning download" href="">Get the App!</a></p>
-          </div>
+  <div class="row">
+
+    <div class="span6"><!-- First Column -->
+
+      <header class="masthead jumbotron">
+        <div class="header-inner">
+          <h1>
+            <a href="/" title="ShopWatch - The new &amp; easy way to find and track online prices"><img src="img/logo.png" alt="ShopWatch - The new &amp; easy way to find and track online prices" /></a>
+          </h1>
+          <p class="lead">ShopWatch makes it easy to keep track of<br /> online prices in one simple, easy to use interface.</p>
+          <p class="actions">
+            <a id="btn-download" class="btn btn-large btn-primary download" href="#">Download on iTunes</a>
+            <a id="btn-iphone-toggle" class="btn btn-large btn-secondary watch" href="#">Watch Video</a>
+          </p>
         </div>
-      </div>
+      </header>
 
       <div id="main">
-        <div class="row">
-          <div class="feature span3">
+
+        <section id="features">
+          <div class="page-header">
+            <h2>Features</h2>
+          </div>
+          <div class="item">
             <h3>Track Prices</h3>
             <p>Whether you are looking to buy or just want to keep an eye on a product, track prices by adding it to your favourites list and do it with ease.</p>
           </div>
-          <div class="feature span3">
+          <div class="item">
             <h3>Simple &amp; Easy UI</h3>
-            <p>Simplistic and intuitive User Interface at your finger tip, making navigation child's play.</p>
+            <p>Simplistic and intuitive user interface at your finger tip, making navigation child's play.</p>
           </div>
-        </div>
-        <div class="row">
-          <div class="feature span3">
-            <h3>Speed</h3>
-            <p>Update a few or many items in a matter of seconds.</p>
-          </div>
-          <div class="feature span3">
+          <div class="item">
             <h3>Essential Details</h3>
             <p>Detailed view provides additional information, such as initial price when items were first added to the list, past updated prices with the aid of a graph, and percentage marked up or down of an item.</p>
           </div>
-        </div>
-      </div>
-
-    </div>
-    <div class="span6">
-
-      <div id="device" class="span6">
-        <div class="iphone">
-          <div class="screen">
-            <img src="img/screenshots/screen1.png" width="320" height="480" alt="Screen1" />
-            <img src="img/screenshots/screen2.png" width="320" height="480" alt="Screen2" />
-            <img src="img/screenshots/screen3.png" width="320" height="480" alt="Screen3" />
-			<img src="img/screenshots/screen4.png" width="320" height="480" alt="Screen4" />
-			<img src="img/screenshots/screen5.png" width="320" height="480" alt="Screen5" />
+          <div class="item">
+            <h3>Speed</h3>
+            <p>Update a few or many items in a matter of seconds.</p>
           </div>
+        </section>
+
+      </div>
+
+    </div><!-- End First Column -->
+
+    <div class="span6"><!-- Second Column -->
+
+      <div id="iphone">
+        <div id="iphone-inner">
+
+          <div id="iphone-carousel" class="carousel">
+            <div class="carousel-inner">
+              <div class="item active"><img src="img/screenshots/screen1.png"></div>
+              <div class="item"><img src="img/screenshots/screen2.png"></div>
+              <div class="item"><img src="img/screenshots/screen3.png"></div>
+              <div class="item"><img src="img/screenshots/screen4.png"></div>
+              <div class="item"><img src="img/screenshots/screen5.png"></div>
+            </div>
+          </div>
+
+          <div id="iphone-video" style="display: none;">
+            <iframe src="http://player.vimeo.com/video/40265395?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;color=ffffff" width="320" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+          </div>
+
         </div>
       </div>
 
-    </div>
-  </div>
-  <div class="row">
-
-    <div id="footer">
-      <div class="span6">
-        <p>&copy; 2012 Rusiru Vithana &amp; Alex Pezzi. All rights reserved.</p>
-      </div>
-    </div>
+    </div><!-- End Second Column -->
 
   </div>
+
+  <footer>
+    <p>&copy; 2012 Rusiru Vithana &amp; Alex Pezzi. All rights reserved.</p>
+  </footer>
+
 </div>
 
-<!-- Scripts -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script src="js/jquery.cycle.all.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
 
 </body>
